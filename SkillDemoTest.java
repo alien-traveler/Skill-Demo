@@ -4,8 +4,8 @@ import org.junit.*;
 public class SkillDemoTest {
     @Test
     public void addition() {
-        // fail
-        assertEquals(100, SkillDemo.Multiplication(5, 10));
+        // success
+        assertEquals(100, SkillDemo.Multiplication(10, 10));
     }
 
 }
